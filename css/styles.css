@@ -1,0 +1,303 @@
+:root {
+  --hover: #cda274;
+  --text: #4d5053;
+  --title: #292f36;
+  --white: #fff;
+}
+body {
+  font-family: "Jost", sans-serif;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
+}
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+.nav-list-link {
+  color: var(--title);
+  font-size: 20px;
+  letter-spacing: 0.4px;
+}
+.nav-list-about {
+  color: var(--title);
+  font-size: 19px;
+  line-height: 1.6;
+  letter-spacing: 0.4px;
+}
+.nav-list-link:hover {
+  color: var(--hover);
+}
+.nav-list-about:hover {
+  color: var(--hover);
+}
+.hero-title {
+  color: var(--title);
+  font-family: "DM Serif Display", serif;
+  font-size: 80px;
+  line-height: 1.2;
+  letter-spacing: 0.22px;
+}
+.hero-desrc {
+  color: var(--text);
+  letter-spacing: 0.22px;
+}
+.hero-btn {
+  color: var(--white);
+  font-size: 18px;
+  letter-spacing: 0.72px;
+
+  width: 207px;
+  height: 71px;
+  background-color: #292f36;
+}
+.benefits-title {
+  color: var(--title);
+  text-align: center;
+  font-family: "DM Serif Display", serif;
+  font-size: 25px;
+  line-height: 1.6;
+  letter-spacing: 0.22px;
+}
+.benefits-decrs {
+  color: var(--text);
+  text-align: center;
+  letter-spacing: 0.22px;
+}
+.benefits-btn {
+  color: var(--text);
+  text-align: center;
+  font-size: 18px;
+  letter-spacing: 0.36px;
+}
+
+.design-title {
+  color: var(--text);
+  font-family: "DM Serif Display", serif;
+  font-size: 50px;
+  line-height: 1.3;
+  letter-spacing: 0.22px;
+}
+.design-decrs {
+  color: var(--text);
+  letter-spacing: 0.22px;
+}
+.design-tel {
+  color: var(--text);
+  font-size: 24px;
+  letter-spacing: 0.22px;
+}
+.design-btn {
+  color: var(--white);
+  font-size: 18px;
+  letter-spacing: 0.72px;
+
+  width: 207px;
+  height: 71px;
+  background-color: #292f36;
+}
+.design-img {
+  width: 592px;
+  height: 635px;
+}
+.reviews {
+  background: #f4f0ec;
+}
+.reviews-title {
+  color: var(--title);
+  text-align: center;
+  font-family: "DM Serif Display", serif;
+  font-size: 45px;
+  line-height: 1.3;
+  letter-spacing: 0.22px;
+}
+.people-think {
+  background-color: var(--white);
+}
+.people-img {
+  width: 77px;
+  height: 77px;
+}
+.reviews-list-title {
+  color: var(--title);
+  font-family: "DM Serif Display", serif;
+  font-size: 25px;
+  letter-spacing: 0.22px;
+}
+.reviews-list-subtitle {
+  color: var(--title);
+  font-family: "DM Serif Display", serif;
+  font-size: 24px;
+  line-height: 1.6;
+  letter-spacing: 0.22px;
+}
+.reviews-decrs {
+  color: var(--text);
+  font-size: 18px;
+  letter-spacing: 0.22px;
+}
+.reviews-text {
+  color: var(--text);
+  font-size: 20px;
+  letter-spacing: 0.22px;
+}
+.brand-list {
+  display: flex;
+}
+.project-title {
+  color: var(--title);
+  text-align: center;
+  font-family: "DM Serif Display", serif;
+  font-size: 47px;
+  line-height: 1.3;
+  letter-spacing: 0.22px;
+}
+.project-decrs {
+  color: var(--text);
+  text-align: center;
+  letter-spacing: 0.22px;
+}
+.project-img {
+  width: 590px;
+  height: 661px;
+}
+.project-list-title {
+  color: var(--title);
+  font-family: "DM Serif Display", serif;
+  font-size: 24px;
+  line-height: 1.6;
+  letter-spacing: 0.22px;
+}
+.project-list-decrs {
+  color: var(--text);
+  letter-spacing: 0.22px;
+}
+.about {
+  background: #f4f0ec;
+}
+.about-decrs {
+  color: var(--hover);
+  text-align: center;
+  font-family: "DM Serif Display", serif;
+  font-size: 85px;
+  letter-spacing: 1.7px;
+}
+.about-text {
+  color: var(--text);
+  text-align: center;
+  letter-spacing: 0.22px;
+}
+.blog-title {
+  color: var(--title);
+  text-align: center;
+  font-family: "DM Serif Display", serif;
+  font-size: 48px;
+  line-height: 1.3;
+  letter-spacing: 0.22px;
+}
+.blog-decrs {
+  color: var(--text);
+  text-align: center;
+  letter-spacing: 0.22px;
+}
+.blog-design {
+  width: 387px;
+  height: 515px;
+  border-radius: 62px;
+  border: 1px solid #e7e7e7;
+}
+.blog-img {
+  width: 345px;
+  height: 296px;
+  border-radius: 45px 45px 0px 0px;
+}
+.blog-design-title {
+  color: var(--title);
+  font-family: "DM Serif Display", serif;
+  font-size: 25px;
+  line-height: 1.4;
+  letter-spacing: 0.5px;
+}
+.blog-design-decrs {
+  color: var(--text);
+  font-size: 16px;
+  letter-spacing: 0.22px;
+}
+.wanna-join {
+  border-radius: 70px;
+  background: var(--title);
+}
+.wanna-join-title {
+  color: var(--white);
+  text-align: center;
+  font-family: "DM Serif Display", serif;
+  font-size: 50px;
+  letter-spacing: 0.22px;
+}
+.wanna-join-decrs {
+  color: var(--white);
+  text-align: center;
+  letter-spacing: 0.22px;
+}
+.wanna-join-btn {
+  color: var(--white);
+  text-align: center;
+  font-size: 18px;
+  letter-spacing: 0.22px;
+
+  width: 241px;
+  height: 71px;
+  background-color: var(--hover);
+}
+.media-decrs {
+  color: var(--text);
+  letter-spacing: 0.22px;
+}
+.pages-title {
+  color: var(--title);
+  font-family: "DM Serif Display", serif;
+  font-size: 25px;
+  letter-spacing: 0.22px;
+}
+.pages-list-link {
+  color: var(--text);
+  letter-spacing: 0.22px;
+}
+.explore-title {
+  color: var(--title);
+  font-family: "DM Serif Display", serif;
+  font-size: 25px;
+  letter-spacing: 0.22px;
+}
+.explore-list-link {
+  color: var(--text);
+  letter-spacing: 0.22px;
+}
+.contact-title {
+  color: var(--title);
+  font-family: "DM Serif Display", serif;
+  font-size: 25px;
+  letter-spacing: 0.22px;
+}
+.contact-list-decrs {
+  color: var(--text);
+  letter-spacing: 0.22px;
+}
+.contact-list-link {
+  color: var(--text);
+  letter-spacing: 0.22px;
+}
+.author-decrs {
+  color: var(--text);
+  letter-spacing: 0.22px;
+}
+.author-link {
+  color: var(--text);
+  letter-spacing: 0.22px;
+}
+.author-link:hover {
+  color: var(--hover);
+}
